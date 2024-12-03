@@ -5,7 +5,7 @@ input_file = 'gitWorkers'
 output_file = 'selector/gitWrandom'
 
 # Number of lines to select
-num_lines_to_select = 20
+num_lines_to_select = 15
 
 def select_random_lines(input_file, output_file, num_lines):
     with open(input_file, 'r') as f:
