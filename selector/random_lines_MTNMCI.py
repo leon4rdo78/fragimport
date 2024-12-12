@@ -5,7 +5,7 @@ input_file = 'gitMTNMCI'
 output_file = 'selector/gitMTNMCIrandom'
 
 # Number of lines to select
-num_lines_to_select = 10
+num_lines_to_select = 0
 
 def select_random_lines(input_file, output_file, num_lines):
     with open(input_file, 'r') as f:
