@@ -1,5 +1,5 @@
-trojan://telegram-id-privatevpns@35.179.219.186:22222?security=tls&sni=trojan.burgerip.co.uk&alpn=http%2F1.1&allowInsecure=1&type=tcp&headerType=none#%5B%F0%9F%87%AC%F0%9F%87%A7%5Dt.me%2FConfigsHub
-ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@51.77.53.200:2375#%5B%F0%9F%8F%81%5Dt.me%2FConfigsHub
-ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@69.50.95.115:8091#%5B%F0%9F%87%BA%F0%9F%87%B8%5Dt.me%2FConfigsHub
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIltcdUQ4M0NcdURERkFcdUQ4M0NcdURERjhddC5tZS9Db25maWdzSHViIiwNCiAgImFkZCI6ICJiaWEtdnBuLXdoYWwuZmFzdC5ob3N0aW5nLWlwLmNvbSIsDQogICJwb3J0IjogIjgwIiwNCiAgImlkIjogIjAzMjMxZTZlLTIyNTEtNDk4Yi04ZTBhLTZhYjkyMjIzMDllZiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICItLS0iLA0KICAiaG9zdCI6ICJiYW5rbmFiaS1tYWhkaTMxMy5JUi4iLA0KICAicGF0aCI6ICIvP2VkPTgwLyNpZC10ZWxlZ3JhbTotLS1cdTAwM0VAdnBuX3doYWxcdTAwM0MtLS0iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
-vless://3d469d13-db99-4240-9c12-d7e2a6618962@c1.vact.ir:2083?encryption=none&security=reality&sni=refersion.com&fp=randomized&pbk=Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18&sid=90278dfc&spx=%2F&allowInsecure=1&type=grpc#%5B%F0%9F%87%A9%F0%9F%87%AA%5Dt.me%2FConfigsHub
+vless://b5e3d701-3b7e-4fc6-a107-5c82a3f8b414@79.127.70.72:443?encryption=none&security=none&type=tcp&headerType=http&host=archlinux.org#%5B%F0%9F%87%AE%F0%9F%87%B7%5Dt.me%2FConfigsHub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkZVRoeWIxMWdmWVVmaDJn@admin.c4.havij.co:443#%5B%F0%9F%87%BA%F0%9F%87%B8%5Dt.me%2FConfigsHub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMSTRvYk9FSURMekRqZDd4WWxoaFRK@86.104.75.103:49264#%5B%F0%9F%8F%81%5Dt.me%2FConfigsHub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZktBSHAxVmZSV1p1OTFMSWk5bzBE@94.228.165.178:58176#%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me%2FConfigsHub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.213.20.227:990#%5B%F0%9F%8F%81%5Dt.me%2FConfigsHub
