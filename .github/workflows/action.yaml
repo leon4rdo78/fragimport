@@ -481,7 +481,7 @@ jobs:
           git push
 
     - name: Merge output files
-      run: cat selector/gitChrandom selector/gitWrandom selector/gitMTNMCIrandom | shuf > selector/merged_output
+      run: cat selector/gitChrandom selector/gitWrandom selector/gitMTNMCIrandom selector/gitpaidrandom | shuf > selector/merged_output
     
     - name: Commit merged output
       run: |
