@@ -228,33 +228,33 @@ jobs:
           git push
 
     - name: Merge output files
-      run: cat selector/gitChrandom selector/gitWrandom selector/gitpaidrandom selector/gitMTNMCIrandom | shuf > selector/merged_output
+      run: cat selector/gitChrandom selector/gitWrandom selector/gitpaidrandom selector/gitMTNMCIrandom | shuf > selector/merged_outputs
     
     - name: Commit merged output
       run: |
         git config --global user.name 'GitHub Actions Bot'
         git config --global user.email 'actions@github.com'
-        git add selector/merged_output
+        git add selector/merged_outputs
         timestamp=$(TZ='Asia/Tehran' date)
         git commit -m "✅Updated merged output on ${timestamp}"
       
     - name: Convert merged output to base64
       run: |
-          > selector/merged_output64
-          content=$(cat selector/merged_output | base64 | tr -d '\n')
-          echo "$content" > selector/merged_output64
+          > selector/merged_outputs64
+          content=$(cat selector/merged_outputs | base64 | tr -d '\n')
+          echo "$content" > selector/merged_outputs64
       
     - name: Check for merged output base64 changes
       id: changesMergedOutput64
       run: |
-          git diff --quiet selector/merged_output64 && echo 'No changes' || echo '::set-output name=changed::true'
+          git diff --quiet selector/merged_outputs64 && echo 'No changes' || echo '::set-output name=changed::true'
       
     - name: Push merged output base64
       if: steps.changesMergedOutput64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add selector/merged_output64
+          git add selector/merged_outputs64
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated merged output on ${timestamp}"
           git push
@@ -481,33 +481,33 @@ jobs:
           git push
 
     - name: Merge output files
-      run: cat selector/gitChrandom selector/gitWrandom selector/gitMTNMCIrandom selector/gitpaidrandom | shuf > selector/merged_output
+      run: cat selector/gitChrandom selector/gitWrandom selector/gitMTNMCIrandom selector/gitpaidrandom | shuf > selector/merged_outputs
     
     - name: Commit merged output
       run: |
         git config --global user.name 'GitHub Actions Bot'
         git config --global user.email 'actions@github.com'
-        git add selector/merged_output
+        git add selector/merged_outputs
         timestamp=$(TZ='Asia/Tehran' date)
         git commit -m "✅Updated merged output on ${timestamp}"
       
     - name: Convert merged output to base64
       run: |
-          > selector/merged_output64
-          content=$(cat selector/merged_output | base64 | tr -d '\n')
-          echo "$content" > selector/merged_output64
+          > selector/merged_outputs64
+          content=$(cat selector/merged_outputs | base64 | tr -d '\n')
+          echo "$content" > selector/merged_outputs64
       
     - name: Check for merged output base64 changes
       id: changesMergedOutput64
       run: |
-          git diff --quiet selector/merged_output64 && echo 'No changes' || echo '::set-output name=changed::true'
+          git diff --quiet selector/merged_outputs64 && echo 'No changes' || echo '::set-output name=changed::true'
       
     - name: Push merged output base64
       if: steps.changesMergedOutput64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add selector/merged_output64
+          git add selector/merged_outputs64
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated merged output on ${timestamp}"
           git push
