@@ -6,7 +6,7 @@ input_file = 'gitpaid'
 output_file = 'selector/gitpaidrandom'
 
 # Number of lines to select
-num_lines_to_select = 15
+num_lines_to_select = 0
 
 def select_random_lines(input_file, output_file, num_lines):
     with open(input_file, 'r') as f:
